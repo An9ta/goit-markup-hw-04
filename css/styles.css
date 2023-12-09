@@ -463,7 +463,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-socialmedia {
+.footer-studio {
   margin-right: 120px;
 }
 .footer-media {
@@ -494,4 +494,7 @@ img {
 .footer-media-icons:hover,
 .footer-media-icons:focus {
   background-color: var(--footer-media-icons);
+}
+.footer-icons-style {
+  fill: var(--footer-color);
 }
