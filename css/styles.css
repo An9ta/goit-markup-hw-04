@@ -11,6 +11,7 @@
   --link-hover-focus: #404bbf;
   --cornflower: #e7e9fc;
   --customers-icons: #8e8f99;
+  --footer-media-icons: #31d0aa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -461,4 +462,36 @@ img {
 .foot-container {
   display: flex;
   align-items: baseline;
+}
+.footer-socialmedia {
+  margin-right: 120px;
+}
+.footer-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  margin-bottom: 16px;
+}
+.footer-social-media {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-media-icons {
+  height: 40px;
+  width: 40px;
+}
+.footer-media-icons {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-main-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-media-icons:hover,
+.footer-media-icons:focus {
+  background-color: var(--footer-media-icons);
 }
