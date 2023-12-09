@@ -458,4 +458,7 @@ img {
 .customers-icon-style {
   fill: currentColor;
 }
-
+.foot-container {
+  display: flex;
+  align-items: baseline;
+}
