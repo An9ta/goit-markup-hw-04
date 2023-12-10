@@ -432,6 +432,7 @@ img {
   line-height: 1.11;
   color: var(--background-color-section);
   margin-bottom: 72px;
+  text-align: center;
 }
 .customers-icons {
   display: flex;
